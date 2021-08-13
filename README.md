@@ -8,9 +8,13 @@ https://drive.google.com/drive/folders/1kNV6-BIY_9OQ9Ap0gPIURG35aT-e6zBo?usp=sha
 
 ### to install:
 tensorflow
+
 numpy
+
 matplotlib
+
 cv2
+
 sklearn
 
 ### usage:
