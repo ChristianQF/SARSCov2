@@ -26,6 +26,8 @@ sklearn
 3. Initialize the notebook and performing
 
 ### References
+Monshi MMA, Poon J, Chung V, Monshi FM. CovidXrayNet: Optimizing data augmentation and CNN hyperparameters for improved COVID-19 detection from CXR. Comput Biol Med. 2021;133:104375. [DOI](https://doi.org/10.1016/j.compbiomed.2021.104375)
+
 https://towardsdatascience.com/detecting-covid-19-induced-pneumonia-from-chest-x-rays-with-transfer-learning-an-implementation-311484e6afc1
 https://github.com/EXJUSTICE/COVID19_Detection_Transfer_Learning_VGG16
 
