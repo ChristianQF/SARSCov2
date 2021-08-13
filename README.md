@@ -29,11 +29,11 @@ sklearn
 https://towardsdatascience.com/detecting-covid-19-induced-pneumonia-from-chest-x-rays-with-transfer-learning-an-implementation-311484e6afc1
 https://github.com/EXJUSTICE/COVID19_Detection_Transfer_Learning_VGG16
 
-training dataset
+__training dataset__
 
 !gdown https://drive.google.com/uc?id=1coM7x3378f-Ou2l6Pg2wldaOI7Dntu1a
 
-test dataset
+__test dataset__
 
 !gdown https://drive.google.com/drive/folders/1kNV6-BIY_9OQ9Ap0gPIURG35aT-e6zBo?usp=sharing
 
