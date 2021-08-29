@@ -18,6 +18,7 @@ Perfomance of all the generated models were  evaluated in a test set of 662 imag
 According to our results (fig.2, Table 1), Xception outperformed the other four deep-learning models, achieving an overall classification accuracy of 100 %. This model is avialable through this [link](https://drive.google.com/file/d/1-6bnyEataVIl4WFxuwQG41GNVenMRBNj/view?usp=sharing)
 
 ![image](https://user-images.githubusercontent.com/79282400/131257886-3b216af1-1a18-4a0b-8c14-2afb3826f05c.png)
+
 __Fig 2. Confusion matrices summarizing the results of training and testing the deep transfer learning-based models employed for predicting Covid-19 detection__
 
 __Table.1.  Several different metrics to quantify the performance of the proposed binary classification models for detection of Covid-19__
