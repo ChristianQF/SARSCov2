@@ -22,6 +22,7 @@ According to our results (fig.2, Table 1), Xception outperformed the other four 
 __Fig 2. Confusion matrices summarizing the results of training and testing the deep transfer learning-based models employed for predicting Covid-19 detection__
 
 __Table.1.  Several different metrics to quantify the performance of the proposed binary classification models for detection of Covid-19__
+
 ![image](https://user-images.githubusercontent.com/79282400/131257987-51c49237-74fb-4ff3-8552-1f47b65a88ae.png)
 
 
