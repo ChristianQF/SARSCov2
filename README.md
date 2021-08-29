@@ -11,9 +11,18 @@ The pre-processed image data was split into training and validation sets (424 im
 
 ![image](https://user-images.githubusercontent.com/79282400/131243390-57cce1e3-2f55-43fb-a49f-869ece1ef97c.png)
 
+__Fig.1 Network architecture for the developed deep learning models. In this case the architecture corresponds to the model including Vgg16 as freezed layers.__
+
 Perfomance of all the generated models were  evaluated in a test set of 662 images. The notebooks related to this work are accesible through this [link](https://github.com/ChristianQF/SARSCov2)
 
-According to our results, Xception outperformed the other four deep-learning models, achieving an overall classification accuracy of 100 %. This model is avialable through this [link](https://drive.google.com/file/d/1-6bnyEataVIl4WFxuwQG41GNVenMRBNj/view?usp=sharing)
+According to our results (fig.2, Table 1), Xception outperformed the other four deep-learning models, achieving an overall classification accuracy of 100 %. This model is avialable through this [link](https://drive.google.com/file/d/1-6bnyEataVIl4WFxuwQG41GNVenMRBNj/view?usp=sharing)
+
+![image](https://user-images.githubusercontent.com/79282400/131257886-3b216af1-1a18-4a0b-8c14-2afb3826f05c.png)
+__Fig 2. Confusion matrices summarizing the results of training and testing the deep transfer learning-based models employed for predicting Covid-19 detection__
+
+__Table.1.  Several different metrics to quantify the performance of the proposed binary classification models for detection of Covid-19__
+![image](https://user-images.githubusercontent.com/79282400/131257987-51c49237-74fb-4ff3-8552-1f47b65a88ae.png)
+
 
 ### 3. Development of a support vector machine model for combining multiple deep learning models for detection and severity of Covid-19
 For this purpose we have used a different dataset of 330 images ([link](https://drive.google.com/drive/folders/1-ciDsiTncjb0uZTLEJmktJnvFSwMdwjp?usp=sharing)) obtaining probability values for their corresponding labels in a binary classification using the different binary classification deep learnig models obtained in a before step. For the same dataset was calculated different 18 features using torchxrayvision library for severity characterization of lungs. These values were grouped for each image. Then, the data was split into training, validation and test sets for the developing of a support vector machine (SVM) classification model which integrate the results of all deep learning models for detection and severity purpose, using the SVM implementations from scikit-learn library. 
